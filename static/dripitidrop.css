@@ -1,0 +1,25 @@
+.container {
+    width: 500px;
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.progress-bar .fill {
+    background: blue;
+    height: 25px;
+    width: 50%;
+    /* You can change this value depending on the progress */
+    border-radius: 5px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
